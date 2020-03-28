@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html, body {
+  font-size: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.summary-pannel {
+  padding: 16px 8px;
+}
+
+.fs-9 {
+  font-size: .9rem !important;
+}
+
+.col-4 {
+  width: calc(25% - 8px);
+  padding: 4px;
+  margin: 4px;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.align-item-center {
+  align-items: center;
+}
+
+.content-space-even {
+  justify-content: space-evenly;
+}
+
+.text-sunglow {
+  color: #FFC43D;
+}
+.sunglow {
+  background-color: #FFC43D;
+}
+
+.text-infra-red {
+  color: #EF476F;
+}
+.infra-red {
+  background-color: #EF476F;
+}
+
+.text-light-sea-green {
+  color: #1B9AAA;
+}
+.light-sea-green {
+  background-color: #1B9AAA;
+}
+
+.text-caribbean-green{
+  color: #06D6A0;
+}
+.caribbean-green {
+  background-color: #06D6A0;
+}
+
+.text-light-yellow{
+  color: #F8FFE5;
+}
+.light-yellow {
+  background-color: #F8FFE5;
+}
+
+.op-80 {
+  opacity: 0.8;
+}
+
+.op-60 {
+  opacity: 0.6;
+}
+
+p {
+  margin: 0;
+}
+
+.level-item p{
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.level-item-title {
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.level-item-detail {
+  font-size: 24px;
+  font-weight: 600;
+}
+.rdt_TableHeadRow > div,
+.rdt_TableRow > div {
+  justify-content: center;
+  flex: 0 0 15%;
+}
+
+.rdt_TableHeadRow > div:nth-child(2),
+.rdt_TableRow > div:nth-child(2) {
+  justify-content: start;
+  flex: 0 0 30%;
+}
+
+.rdt_TableHeadRow > div:nth-child(1),
+.rdt_TableRow > div:nth-child(1) {
+  justify-content: start;
+  flex: 0 0 5%;
+}
+
+.rdt_TableHeadRow > div > div,
+.rdt_TableRow > div > div {
+  overflow: unset !important;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: unset !important;
+}
+
+.delta-details {
+  margin-right: 4px;
+}
+
+.delta-details svg {
+  width: 8px;
+}
+.delta-details_0 {
+  display: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
